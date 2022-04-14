@@ -296,5 +296,5 @@ def solve_flow(*args, **kwargs):
         print(exc)
         return 0.0, 0.0, False
 
-    # return drag, lift, True
+    # return reward components
     return pressure_drp, heat, True
